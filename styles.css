@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 881px;
+    text-align: center;
+    margin: 0 auto; /* Center the content on the page */
+}
+
+pre b {
+    font-weight: bold; /* Apply bold style to text inside strong tags */
+}
+
+.paragraph pre {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 24px;
+    font-size: 20px;
+    padding-left: 10px; /*somehow need padding to make text looked centered*/
+    white-space: pre-wrap;
+}
+.heading {
+    margin: 30px 0;
+    text-align: center; /* Center the text within the button */
+    font-weight: bold;
+}
+@media screen and (max-width: 881px), only screen and (max-device-width: 881px) {
+    body {
+        width: 95%;
+    }
+}
